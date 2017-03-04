@@ -1,0 +1,13 @@
+Package: ep
+Type: Package
+Title: Calculate earned premium by policy
+Version: 0.1.0
+Date: 2014-01-13
+Author: Yours Truly
+Maintainer: Yours Truly <yours.truly@somewhere.net>
+Description: Given a policy level data.frame with columns named
+  writtenpremium, effectivedate, and expirationdate, and given an ascending sequence 
+  of 'asof' dates, this package's sole function, 'earnPremium', will earn each
+  policy's writtenpremium between the asof dates.
+License: GPL
+Depends: plyr
